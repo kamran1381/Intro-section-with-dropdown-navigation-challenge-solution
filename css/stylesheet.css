@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@font-face {
+    font-family:Handlee ;
+    src: url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+} */
+
+body{
+    background-color:  hsl(0, 0%, 98%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    min-width: 1200px !important;
+}
+
+
+.header{
+    width: 100%;
+
+}
+
+.navbar{
+    width: 100%;
+}
+
+.header-wrapper{
+    direction: rtl;
+}
+.snap{
+    font-size: 30px  !important;
+    color: black;
+}
+
+.features-btn{
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.features-btn:hover{
+    border-color: none !important;
+}
+
+.company-btn{
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.fa-angle-up{
+    font-size: 15px;
+}
+.login-search{
+    position: relative;
+    left: 100%;
+}
+
+.login-ui{
+    font-size: 18px !important;
+    color: black !important;
+}
+
+
+.Register-btn{
+   border: 0.5px solid black;
+   border-radius: 0.5rem;
+}
+
+.Register-btn a{
+  color: #000 !important;
+}
+
+.remote-work{
+    transform: translate(25% , 30%);
+}
+
+.remote-work h2{
+    font-size: 4.3em;
+}
+
+.remote-work-btn button{
+    border: 0.8px solid #000;
+    border-radius: 0.5rem;
+}
+
+.sponsirship-list{
+    margin-top: 30px;
+}
+
+.sponsirship-list li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+
+
+.remote-work-pic-background{
+    background-image: url("../images/image-hero-desktop.png") ;
+    width: 400px;
+    height: 530px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(2, 238, 238);
+    margin-left: 40px;
+}
+
+.hidden{
+    display: none;
+}

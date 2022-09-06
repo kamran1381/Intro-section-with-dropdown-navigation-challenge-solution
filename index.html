@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="css/mediaquery.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="navbar ">
+      <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between ">
+        <a class="navbar-brand snap" href="#"><img src="images/logo.svg"></a>
+        <button onclick="remove()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ">
+            <li class="nav-item active drop-down mx-3 ">
+              <div class="dropdown shadow-sm">
+                <button class="btn features-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Features <i class="fa fa-angle-up"></i>
+                </button>
+                <div class="dropdown-menu " aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item " href="#"><img src="images/icon-todo.svg" class="mr-2">to do list</a>
+                  <a class="dropdown-item" href="#"><img src="images/icon-calendar.svg" class="mr-2">calender</a>
+                  <a class="dropdown-item" href="#"> <img src="images/icon-reminders.svg" class="mr-2">Reminders</a>
+                  <a class="dropdown-item" href="#"> <img src="images/icon-planning.svg" class="mr-2">planning</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item drop-down ">
+              <div class="dropdown">
+                <button class="btn company-btn " type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  company <i class="fa fa-angle-up"></i>
+
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#"> History</a>
+                  <a class="dropdown-item" href="#">our team </a>
+                  <a class="dropdown-item" href="#">Blog</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link careers" href="#">careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link careers " href="#">About</a>
+            </li>
+            <div class="login-search " id="search">
+              <ul class="navbar-nav">
+                <li class="nav-item  ">
+                  <a class="nav-link login-ui careers " href="#">Login</a>
+                </li>
+                <li class="nav-item Register-btn ">
+                  <a class="nav-link btn " href="#">Resgister</a>
+                </li>
+              </ul>
+    
+            </div>
+          </ul>
+        </div>
+   
+      </nav>
+    </div>
+
+
+    <div class="main-header col-md-12 ">
+      <div class="header-wrapper row">
+        <div class="remote-work-pic col-md-6">
+          <div class="remote-work-pic-background">
+
+        
+          </div>
+        </div>
+        <div class="remote-work col-md-6 text-left ">
+          <h2>Make <br> remote work</h2>
+          <p class="pt-3">Get your team in sync.no matter your location. streamline processes.<br>
+            create team rituals.and watch productivity soar.</p>
+          <div class="remote-work-btn">
+            <button class="btn px-3 ">Learn More</button>
+            <div class="sponsirship">
+              <ul class="sponsirship-list ">
+                <li><span><img src="images/client-databiz.svg"></span></li>
+                <li><span><img src="images/client-audiophile.svg"></span></li>
+                <li><span><img src="images/client-meet.svg"></span></li>
+                <li><span><img src="images/client-maker.svg"></span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+     
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+
+  <script>
+
+    function remove(){
+     let menu = document.querySelector("#search");
+     menu.classList.remove("login-search");
+      
+    }
+  </script>
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

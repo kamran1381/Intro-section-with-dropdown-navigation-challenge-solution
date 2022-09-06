@@ -1,0 +1,35 @@
+@media(max-width:1200px){
+    
+}
+
+ @media(max-width:992px){
+   
+    .company-btn {
+        margin-left: 9px;
+    }
+
+    .careers {
+        margin-left: 30px !important;
+    }
+    .login-search{
+        display: none !important;
+    }
+
+ 
+    .remote-work-pic-background{
+        width: 100% !important;
+        height: 1500px;
+    }
+
+
+   
+    .remote-work h2{
+        font-size: 2.1em;
+    }
+
+    .remote-work p {
+        font-size: 12px !important;
+    }
+
+} 
+
